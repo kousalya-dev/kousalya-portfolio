@@ -1,0 +1,27 @@
+/* File: src/styles/Contact.css */
+.contact-section {
+  background: #0a0a0a;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact-box {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #1c1c1c;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 92, 0, 0.4);
+  color: #ccc;
+  font-size: 16px;
+}
+
+.contact-box a {
+  color: #ff5c00;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+/* File: src/styles/About.css */
+.about-section {
+  background: #0a0a0a;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #ff5c00;
+}
+
+.about-box {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #1c1c1c;
+  box-shadow: 0 0 20px rgba(255, 92, 0, 0.4);
+  line-height: 1.8;
+  color: #ccc;
+}

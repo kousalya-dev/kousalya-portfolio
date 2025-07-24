@@ -1,0 +1,36 @@
+/* File: src/styles/Projects.css */
+.projects-section {
+  background: #0a0a0a;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  background-color: #1f1f1f;
+  padding: 30px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 92, 0, 0.3);
+  border: 2px solid #ff5c00;
+  color: #ccc;
+  transition: transform 0.3s ease;
+}
+
+.project-card h3 {
+  color: #ff5c00;
+  margin-bottom: 12px;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  background-color: #2a2a2a;
+}
